@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// awu-handoff · 零依赖交接工具
+// handoff-ai · 零依赖交接工具
 // 用法：
 //   node scripts/handoff.mjs write [--task <id>] [--status <s>] [--dir <path>]
 //   node scripts/handoff.mjs check [<file>] [--json]
@@ -381,7 +381,7 @@ for (let i = 1; i < argv.length; i++) {
 }
 
 if (!cmd || cmd === '--help' || cmd === '-h') {
-  console.log(`awu-handoff
+  console.log(`handoff-ai
 
   node scripts/handoff.mjs write [--task <id>] [--status in-progress|blocked|review|done] [--dir <path>]
   node scripts/handoff.mjs check [<file>] [--json]

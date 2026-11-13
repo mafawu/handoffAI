@@ -1,5 +1,5 @@
 ---
-name: awu-handoff
+name: handoff-ai
 description: "会话切换时的工作交接：交接方把现场、证据、已排除的路和下一步压成一页可复核的记录，接手方先跑 check 核对漂移，再给三行计划才动手。用于会话快满、换会话/换模型/换工具、派子任务，以及接手一个可能有人做过的项目。不用于已完成的任务、长期设计文档，或把聊天记录复述一遍。"
 metadata:
   version: "2.0.0"
@@ -7,7 +7,7 @@ metadata:
   tool: "scripts/handoff.mjs（write / check / list，零依赖，Node 18+）"
 ---
 
-# awu-handoff
+# handoff-ai
 
 两种坏交接，都常见：
 

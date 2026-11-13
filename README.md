@@ -1,4 +1,4 @@
-# awu-handoff
+# handoff-ai
 
 会话切换时的工作交接：交接方把**现场、证据、已排除的路、下一刀**压成一页可复核的记录；接手方先跑 `check` 核对漂移，再给三行计划，才动手。
 
@@ -16,9 +16,9 @@
 
 | 工具 | 位置 |
 | --- | --- |
-| Claude Code | `.claude/skills/awu-handoff/` |
-| Codex | `~/.codex/skills/awu-handoff/` |
-| 项目内通用 | `skills/awu-handoff/`，在规则文件里指向 `SKILL.md` |
+| Claude Code | `.claude/skills/handoff-ai/` |
+| Codex | `~/.codex/skills/handoff-ai/` |
+| 项目内通用 | `skills/handoff-ai/`，在规则文件里指向 `SKILL.md` |
 
 交接固定放项目根的 `.handoff/`，**加进 `.gitignore`**：本机草稿，不进版本库。
 
@@ -86,7 +86,7 @@ prev: 2026-11-12T14-05_scan-rules.handoff.md
 ## 文件
 
 ```
-awu-handoff/
+handoff-ai/
 ├─ SKILL.md                 立场、交出四步、接手四步
 ├─ references/
 │  ├─ format.md             字段表、六节逐节写法、账目 schema、预算
